@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Enginemeter</string>
+    <string name="text_well">Selamat Datang</string>
+    <string name="text_tes">Ketahui suhu mesin kamu dengan melakukan percobaan berikut</string>
+    <string name="text_desc">Merupakan sebuah aplikasi yang bisa digunakan sebagai acuan pengukuran suhu mesin sepeda motor, dimana aplikasi ini menggunakan algoritma Fuzzy Logic dalam perhitungannya.</string>
+    <string name="text_dev"><![CDATA[Yusron Arly & Hildan Rizky]]></string>
+</resources>
