@@ -37,9 +37,9 @@ class DetailActivity : AppCompatActivity() {
     var disjunctionString: Array<String> = arrayOf()
 
     // variabel defuzzyfication
-    val rangeRendah = Array<Int>(5) { it * 6 }
-    val rangeSedang = Array<Int>(5) { it * 2 + 31 }
-    val rangeTinggi = Array<Int>(5) { it * 12 + 41 }
+    val rangeRendah = Array<Int>(5) { it * 7 }
+    val rangeSedang = Array<Int>(5) { it * 8 + 36 }
+    val rangeTinggi = Array<Int>(5) { it * 20 + 77 }
     var final_result = 0.0
     var string_result = ""
 
@@ -481,11 +481,11 @@ class DetailActivity : AppCompatActivity() {
         }
 
         if(success){
-            if(final_result.toInt() in 1..30){
+            if(final_result.toInt() in 1..35){
                 string_result = "Rendah"
-            }else if(final_result.toInt() in 31..40){
+            }else if(final_result.toInt() in 36..76){
                 string_result = "Sedang"
-            }else if(final_result.toInt() in 41..100){
+            }else if(final_result.toInt() in 77..177){
                 string_result = "Tinggi"
             }else{
                 string_result = "Data diluar jangkauan"

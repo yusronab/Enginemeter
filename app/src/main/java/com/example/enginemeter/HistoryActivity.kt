@@ -59,6 +59,7 @@ class HistoryActivity : AppCompatActivity() {
             override fun onRead(data: MainModel) {
                 startActivity(Intent(this@HistoryActivity, DetailActivity::class.java).also {
                     it.putExtra("id", data.id)
+                    finish()
                 })
             }
 
