@@ -210,7 +210,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Conjuction"
+                    android:text="Conjunction"
                     android:layout_marginStart="25dp"
                     android:layout_weight="3"
                     android:textColor="@color/black"/>

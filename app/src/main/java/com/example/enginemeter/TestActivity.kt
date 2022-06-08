@@ -216,7 +216,7 @@ class TestActivity : AppCompatActivity() {
             for(i in inferenceString.indices){
                 for(j in 1..inferenceString.size-1){
                     // Pengecekan apakah ada nama yang sama pada suatu array
-                    if(inferenceString[0] == inferenceString[j]){
+                    if(inferenceString[0] == inferenceString[j] || inferenceString[i] == inferenceString[j] ){
                         key = 1
                     }
                 }
